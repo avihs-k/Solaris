@@ -1,0 +1,57 @@
+@font-face{
+  font-family: ft1;
+  src: url(dogicapixel.ttf) ;
+}
+@font-face{
+  font-family: ft2;
+  src: url(dogicapixelbold.ttf)
+}
+  
+  body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url("uni1.png");
+    background-size: cover;
+    background-position: center bottom;
+  }
+  
+  .dialogBox {
+    width: 650px;
+    max-width: 80%;
+    background-color: rgba(255, 255, 255, 0.600);
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .optionSelect {
+    font-family: ft1;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 0%);
+    color: rgb(0, 0, 0);
+  }
+
+  .optionSelect:hover {
+    background-color: #302f2f;
+    color: rgba(255, 255, 255, 0.700);
+    transition: 0.4s;
+  }
+
+  .optionSelect-grid {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  #text{
+    font-family: ft2;
+    font-size: small;
+    color: #000000;
+  }
